@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <pre>
+    <h4> 1.You are provided with two numbers A and B.your task is to add these two numbers.</h4>
+    const AddTwoNumbers = (a,b) => {
+            return a+b
+    };
+    <h4> 2.You are given two number first as A and second as B and check if both conditions (A<10 and A>B) are satisfied or not with the help of operators.</h4>
+      const Is_Valid = (a,b) => {  
+        if (a<10 && a>b)  
+        {
+          return true;
+        }
+        else
+        {
+           return false;
+        }
+        };
+    <h4>3.Check the conditons</h4>
+    const Check = (A, B) => 
+{
+  if (A%10===0 || B%10===0)
+    {
+      return true;
+    }
+     if (A%10!==0 && B%10!==0)
+    {
+      return false;
+    }
+     if (A%10!==0 || B%10!==0)
+    {
+      return true;
+    } 
+};
+    <h4>4.Find the first digit of a 4 digit number</h4> 
+    const First_Digit = (n) => {
+  
+      return (n-n%1000)/1000;
+  };
+  <h4>5.Find the last digit of a 4 digit number</h4> 
+  const Last_Digit = (n) => {
+    return(n%10);
+  };
+  <h4>6.Find the remainder</h4> 
+  const Find_the_remainder = (a,b) => {
+    return (b%a);   
+   };
+   <h4>7.Multipy two Numbers</h4> 
+   
+  const Multiply_two_number = (a,b) => {
+  return (a*b);
+};
+<h4>8.Marks Calculator</h4> 
+const Sum = (A, B, C) => 
+{
+   var addition = A+B+C
+ return (addition);
+};
+
+const Average = (A, B, C) => 
+{
+  var average = (A+B+C)/3
+  return (average);
+};
+
+
+   
+
+  
+  
+  
+  </pre>            
+</body>
+</html>
